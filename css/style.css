@@ -42,3 +42,21 @@ main {
 .white-font {
   color: #ffffffe5;
 }
+
+.dark-font {
+  color: #000;
+}
+
+.dark-font-lighten {
+  color: #000000cc;
+}
+
+img {
+  height: 64px;
+}
+
+@media screen and (max-width: 600px) {
+  img {
+    height: 56px;
+  }
+}
